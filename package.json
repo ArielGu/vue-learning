@@ -1,0 +1,36 @@
+{
+  "name": "vue-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --config scripts/webpack.dev.conf.js",
+    "build": "node scripts/build.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "6.26.3",
+    "babel-eslint": "^10.0.2",
+    "babel-loader": "7",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.2.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^5.2.3",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "globby": "^10.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "postcss-loader": "^3.0.0",
+    "vue-loader": "13.7.2",
+    "vue-style-loader": "3.1.2",
+    "vue-template-compiler": "2.5.16",
+    "webpack": "^3.12.0",
+    "webpack-dev-server": "^2.11.2",
+    "webpack-merge": "^4.2.1"
+  },
+  "dependencies": {
+    "vue": "2.5.16"
+  }
+}
